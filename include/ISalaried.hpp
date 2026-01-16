@@ -4,5 +4,5 @@
 class ISalaried 
 {
 public:
-    virtual double calculateSalary() noexcept = 0; 
+    virtual double calcSalary() noexcept = 0; 
 };
