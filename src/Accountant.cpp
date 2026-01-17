@@ -6,10 +6,7 @@ void Accountant::printInfo() const noexcept
     std::cout 
     << "ID: " << _ID << std::endl
     << "Name: " << _name << std::endl
-    << "Salary: " << calculateSalary() << std::endl;
-}
+    << "Salary: " << calcSalary() << std::endl
+    << "Role: Accountant" << std::endl;
 
-double Accountant::calculateSalary() const noexcept
-{
-    
 }
