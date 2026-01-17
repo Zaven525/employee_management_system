@@ -9,5 +9,5 @@ public:
     Accountant(std::string name) : Employee{name} {}
 public:
     virtual void printInfo() const noexcept;
-    virtual double calcSalary() const noexcept;
+    virtual double calcSalary() const noexcept override { return 5000.0; };
 };

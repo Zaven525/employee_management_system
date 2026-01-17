@@ -2,10 +2,10 @@
 #include <iostream>
 #include "Employee.hpp"
 
-class Developer : public Employee
+class President : public Employee
 {
 public:
-    Developer(std::string name) : Employee{name} {}
+    President(std::string name) : Employee{name} {}
 public:
     virtual void printInfo() const noexcept;
 };
