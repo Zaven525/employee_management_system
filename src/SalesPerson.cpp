@@ -1,4 +1,4 @@
-#pragma once
+
 #include "SalesPerson.hpp"
 
 void SalesPerson::printInfo() const noexcept

@@ -1,4 +1,4 @@
-#pragma once
+
 #include "Developer.hpp"
 
 void Developer::printInfo() const noexcept

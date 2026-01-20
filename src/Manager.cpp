@@ -1,4 +1,4 @@
-#pragma once
+
 #include "Manager.hpp"
 
 void Manager::printInfo() const noexcept
@@ -8,5 +8,4 @@ void Manager::printInfo() const noexcept
     << "Name: " << _name << std::endl
     << "Salary: " << calcSalary() << std::endl
     << "Role: Manager" << std::endl;
-    
 }

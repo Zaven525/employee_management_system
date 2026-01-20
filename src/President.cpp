@@ -1,4 +1,4 @@
-#pragma once
+
 #include "President.hpp"
 
 void President::printInfo() const noexcept
